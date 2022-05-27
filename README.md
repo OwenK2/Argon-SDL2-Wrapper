@@ -112,31 +112,31 @@ Argon();
 - `ARGON_VSYNC`: enable vertical synchronization
 
 ### General Functions
-`void begin()`: create the window and allow all Argon functionality
-`void stop()`: destroy the window and stop all Argon functionality
-`void maximize()`: maximize window
-`void minimize()`: minimize window
-`void show()`: show window
-`void hide()`: hide window
-`void raise()`: raise window
-`void restore() `: restore window
-`void fullscreen()`: put window into full screen mode
-`void setMaxSize(int w, int h)`: set maximum window size
-`void setMinSize(int w, int h)`: set minimum window size
-`void setOpacity(float opacity)`: set window opacity
-`void setPosition(int x, int y)`: set window position
-`void setMousePosition(int x, int y)`: set mouse position
-`void setSize(int w, int h)`: set window size
-`void setTitle(const char* title)`: set window title
-`void setIsResizable(bool resizable)`: enable or disable window resizability 
-`void setBordered(bool bordered)`: enable or disable window borders
-`void setBrightness(float brightness)`: set brightness of windows
-`bool setCaptureMouse(bool capture = true)`: enable or disable capturing of the mouse
-`bool setRelativeMouseMode(bool relative)`: enable relative mouse mode (mouse movements described in offsets, see `rx` and `ry` in `MouseEvent`)
-`void setCursorDisplay(bool show)`: show or hide the cursor
-`bool alert(const char* message)`: trigger a native alert with the message
-`bool alert(const char* title, const char* message)`:  trigger a native alert with the message and title
-`int alert(const char* title, const char* message, uint8_t numButtons, SDL_MessageBoxButtonData* btnData, SDL_MessageBoxFlags flag = SDL_MESSAGEBOX_INFORMATION)`: trigger a native alert with the message and buttons...
+`void begin()`: create the window and allow all Argon functionality  
+`void stop()`: destroy the window and stop all Argon functionality  
+`void maximize()`: maximize window  
+`void minimize()`: minimize window  
+`void show()`: show window  
+`void hide()`: hide window  
+`void raise()`: raise window  
+`void restore() `: restore window  
+`void fullscreen()`: put window into full screen mode  
+`void setMaxSize(int w, int h)`: set maximum window size  
+`void setMinSize(int w, int h)`: set minimum window size  
+`void setOpacity(float opacity)`: set window opacity  
+`void setPosition(int x, int y)`: set window position  
+`void setMousePosition(int x, int y)`: set mouse position  
+`void setSize(int w, int h)`: set window size  
+`void setTitle(const char* title)`: set window title  
+`void setIsResizable(bool resizable)`: enable or disable window resizability   
+`void setBordered(bool bordered)`: enable or disable window borders  
+`void setBrightness(float brightness)`: set brightness of windows  
+`bool setCaptureMouse(bool capture = true)`: enable or disable capturing of the mouse  
+`bool setRelativeMouseMode(bool relative)`: enable relative mouse mode (mouse movements described in offsets, see `rx` and `ry` in `MouseEvent`)  
+`void setCursorDisplay(bool show)`: show or hide the cursor  
+`bool alert(const char* message)`: trigger a native alert with the message  
+`bool alert(const char* title, const char* message)`:  trigger a native alert with the message and title  
+`int alert(const char* title, const char* message, uint8_t numButtons, SDL_MessageBoxButtonData* btnData, SDL_MessageBoxFlags flag = SDL_MESSAGEBOX_INFORMATION)`: trigger a native alert with the message and buttons...  
 
 
 
