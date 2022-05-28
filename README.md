@@ -73,18 +73,18 @@ int main(int argc, char** argv) {
 ```
 
 ## Examples
-All of the examples in the `./examples` folder have comments at the top to explain how to compile and run them
+All of the examples in the [examples](examples) folder have comments at the top to explain how to compile and run them
 
-#### Conways Game of Life
+#### [Conways Game of Life](examples/conways.cpp)
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 ![Conways Game Of Life Example](images/conways.gif)
 
-#### Abelian Sandpile Simulation
+#### [Abelian Sandpile Simulation](examples/sandpiles.cpp)
 https://en.wikipedia.org/wiki/Abelian_sandpile_model
 ![Abelian Sandpile Simulation](images/sandpiles.gif)
 
-#### Fractal Simulation (Mandelbrot & Julia)
+#### [Fractal Simulation (Mandelbrot & Julia)](examples/fractal.cpp)
 https://en.wikipedia.org/wiki/Mandelbrot_set
 https://en.wikipedia.org/wiki/Julia_set
 ![Fractal Simulation](images/fractal.gif)
