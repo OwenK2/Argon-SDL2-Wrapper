@@ -72,8 +72,22 @@ int main(int argc, char** argv) {
 }
 ```
 
-## Running the Examples
+## Examples
 All of the examples in the `./examples` folder have comments at the top to explain how to compile and run them
+
+#### Conways Game of Life
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+![Conways Game Of Life Example](images/conways.gif)
+
+#### Abelian Sandpile Simulation
+https://en.wikipedia.org/wiki/Abelian_sandpile_model
+![Abelian Sandpile Simulation](images/sandpiles.gif)
+
+#### Fractal Simulation (Mandelbrot & Julia)
+https://en.wikipedia.org/wiki/Mandelbrot_set
+https://en.wikipedia.org/wiki/Julia_set
+![Fractal Simulation](images/fractal.gif)
 
 ## API
 
