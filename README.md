@@ -317,9 +317,11 @@ struct MyApp : public Argon {
 			// You can edit values of pixels in here. The fomat is SDL_PIXELFORMAT_RGBA32.
 			// Do not go outside the bounds of wxh
 			// Always use the w & h returned from lockTexture not any other value like ww() or wh()
+
+			// !!! ALWAYS UNLOCK TEXTURE ASAP AFTER DONE EDITING VALUES
+			unlockTexture(texture);
 		}
-		// !!! ALWAYS UNLOCK TEXTURE ASAP AFTER DONE EDITING VALUES
-		unlockTexture(texture);
+
 
 		// Draw texture to window if desired (or you could save for later if you don't want to draw right away) 
 		drawTexture(texture);
