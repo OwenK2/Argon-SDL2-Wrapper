@@ -1,17 +1,14 @@
-
-
 # Argon
 A simple & lightweight wrapper for SDL2 that provides a clean and easy API, allowing you to create shorter graphical projects in c++. 
 
-This wrapper also wraps some SDL_GFX functions and SDL_TTF functions, but in order to stay lightweight you must add the appropriate `#define` if you wish to include these parts of the wrapper. Use `#define ARGON_INCLUDE_GFX` or `#define ARGON_INCLUDE_TTF` respectively before `#define "Argon.h"`.
+## Getting Started / Installation
+- Ensure [SDL2](https://www.libsdl.org/download-2.0.php) is installed
+- Add [Argon.h](src/Argon.h) to your source directory
+- Add `#include "Argon.h"` somewhere in your source code
+- Ensure you are linking to SDL2 using `-lSDL2`
 
-Please take a look at the examples folder for some use cases.
+This wrapper also wraps some SDL_GFX functions and SDL_TTF functions to use these add `#define ARGON_INCLUDE_GFX` and/or `#define ARGON_INCLUDE_TTF` before your `#include "Argon.h"` line.
 
-## Getting Started
-Ensure all prerequisites are fulfilled then copy the header file into your source code and add `#include "Argon.h"` to the source file where you wish to use the wrapper.
-
-### Prerequisites
-- [SDL2](https://www.libsdl.org/download-2.0.php)
 
 ### Basic Usage
 
