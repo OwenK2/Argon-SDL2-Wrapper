@@ -7,7 +7,7 @@ A simple & lightweight wrapper for SDL2 that provides a clean and easy API, allo
 - Add `#include "Argon.h"` somewhere in your source code
 - Ensure you are linking to SDL2 using `-lSDL2`
 
-This wrapper also wraps some SDL_GFX functions and SDL_TTF functions to use these add `#define ARGON_INCLUDE_GFX` and/or `#define ARGON_INCLUDE_TTF` before your `#include "Argon.h"` line.
+This wrapper also wraps some SDL_GFX functions and SDL_TTF functions to use these add `#define ARGON_INCLUDE_GFX` and/or `#define ARGON_INCLUDE_TTF` before your `#include "Argon.h"` line. When using these you must also include `-lSDL2_gfx` or `-lSDL2_ttf` in your compile command
 
 
 ### Basic Usage
@@ -88,6 +88,11 @@ https://en.wikipedia.org/wiki/Abelian_sandpile_model
 https://en.wikipedia.org/wiki/Mandelbrot_set
 https://en.wikipedia.org/wiki/Julia_set
 ![Fractal Simulation](images/fractal.gif)
+
+#### [Diffusion-Limited Aggregation](examples/dla.cpp)
+https://en.wikipedia.org/wiki/Mandelbrot_set
+https://en.wikipedia.org/wiki/Julia_set
+![Diffusion-Limited Aggregation](images/dla.gif)
 
 ## API
 

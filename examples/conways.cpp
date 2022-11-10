@@ -20,7 +20,7 @@
 
 #define MAP(x, a, b, c, d) ((float)(c) + (((float)(d) - (float)(c)) / ((float)(b) - (float)(a))) * ((float)(x) - (float)(a)))
 float hue2rgb(float p, float q, float h);
-uint32_t hsla2rgba(float h, float s, float l, float a = 255.0);
+uint32_t hsla2rgba(float h, float s, float l, float a = 1.0);
 
 struct Brush {
 	const uint8_t w;
