@@ -90,8 +90,7 @@ https://en.wikipedia.org/wiki/Julia_set
 ![Fractal Simulation](images/fractal.gif)
 
 #### [Diffusion-Limited Aggregation](examples/dla.cpp)
-https://en.wikipedia.org/wiki/Mandelbrot_set
-https://en.wikipedia.org/wiki/Julia_set
+https://en.wikipedia.org/wiki/Diffusion-limited_aggregation
 ![Diffusion-Limited Aggregation](images/dla.gif)
 
 ## API
